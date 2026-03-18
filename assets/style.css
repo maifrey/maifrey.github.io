@@ -1,0 +1,49 @@
+/* assets/style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 1.6;
+  background-color: white;
+  color: #333;
+}
+
+h1, h2 {
+  color: #0b4b08;
+}
+
+a {
+  color: #0b4b08;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.project {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.05);
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.flex-item {
+  /* Each item takes up 50% of the container width to fit two per row */
+  flex: 1;
+  text-align: center;
+}
